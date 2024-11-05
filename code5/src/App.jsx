@@ -1,5 +1,6 @@
 import Example2 from "../Components/Example2";
 import Example3 from "../Components/Example3";
+import Example4 from "../Components/Example4";
 // import UseState from "../Components/UseState";
 import "./App.css";
 
@@ -8,7 +9,8 @@ function App() {
     <>
       {/* <UseState /> */}
       {/* <Example2 /> */}
-      <Example3 />
+      {/* <Example3 /> */}
+      <Example4 />
     </>
   );
 }
