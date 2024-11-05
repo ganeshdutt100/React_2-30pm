@@ -1,10 +1,12 @@
-import UseState from "../Components/UseState";
+import Example2 from "../Components/Example2";
+// import UseState from "../Components/UseState";
 import "./App.css";
 
 function App() {
   return (
     <>
-      <UseState />
+      {/* <UseState /> */}
+      <Example2 />
     </>
   );
 }
