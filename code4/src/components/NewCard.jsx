@@ -1,6 +1,6 @@
 import React from "react";
 
-const NewCard = ({ newPara }) => {
+const NewCard = ({ newPara, heading }) => {
   return (
     <div>
       <div className="container">
@@ -13,6 +13,7 @@ const NewCard = ({ newPara }) => {
             />
           </div>
           <div className="col">
+            <h1>{heading}</h1>
             <p>{newPara}</p>
           </div>
         </div>
@@ -21,6 +22,10 @@ const NewCard = ({ newPara }) => {
   );
 };
 
+NewCard.defaultProps = {
+  heading: "Default Heading",
+  newPara: "Default Paragraph",
+};
 export default NewCard;
 
 // function fun(a, b) {

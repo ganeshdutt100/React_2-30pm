@@ -12,6 +12,7 @@ import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import { Card } from "./components/Card";
 import NewCard from "./components/NewCard";
+import NewFile from "./components/NewFile";
 
 function App() {
   let para1 =
@@ -54,6 +55,9 @@ function App() {
       </div>
 
       <NewCard newPara={para2} />
+
+      <NewFile />
+
       {/* <button></button> */}
       {/* <Button></Button> */}
 
