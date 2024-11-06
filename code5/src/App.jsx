@@ -6,6 +6,8 @@ import Navbar from "../Components/Navbar";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.bundle";
+import Navbar2 from "../Components/Navbar2";
+import NewSection from "../Components/NewSection";
 
 function App() {
   return (
@@ -14,7 +16,9 @@ function App() {
       {/* <Example2 /> */}
       {/* <Example3 /> */}
       {/* <Example4 /> */}
-      <Navbar />
+      {/* <Navbar /> */}
+      <Navbar2 />
+      <NewSection />
     </>
   );
 }
